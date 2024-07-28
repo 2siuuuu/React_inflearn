@@ -1,0 +1,18 @@
+/* 페이지 전체  */
+body {
+    padding: 20px;
+}
+
+.App > section { /*App 아래의 section 태그*/
+    background-color: rgb(245, 245, 245);
+    border: 1px solid rgb(240, 240, 240);
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.App {
+    /* margin을 없음으로 놓고, auto로 설정 - 가운데 고정됨. */
+    margin: 0 auto; 
+    width: 400px;
+}
